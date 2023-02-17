@@ -27,8 +27,8 @@ SECRET_KEY = config("SECRET_KEY")
 DEBUG = config("DEBUG", default=True, cast=bool)
 
 
-#ALLOWED_HOSTS = ['jg-portfolio-env.eba-riasytrm.us-west-2.elasticbeanstalk.com']
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['JGportfolio-env.eba-ag3pdvsj.us-west-2.elasticbeanstalk.com']
+#ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
